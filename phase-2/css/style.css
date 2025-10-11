@@ -114,4 +114,26 @@ footer {
         border-bottom: none;
     }
 
+    /* Desktop footer */
+
+    .copyright {
+        padding-left: 20px;
+        padding-bottom: 15px;
+    }
+    
+    #copyright-statement {
+        font-size: 0.7rem;
+        align-self: center;
+    }
+    
+    .bottom-navigation {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        background-color: beige;
+        outline: 5px solid burlywood;
+        outline-offset: 5px;
+        padding: 5px;
+    }
+
 }
