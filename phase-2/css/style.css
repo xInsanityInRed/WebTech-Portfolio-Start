@@ -12,7 +12,6 @@ body {
 /* Header */
 
 header {
-    top: 0;
     background-color: beige;
     border: 5px solid burlywood;
     padding: 5px;
@@ -31,7 +30,6 @@ h1 {
 .top-navigation {
     display: none;
 }
-
 
 /* Main */
 
@@ -87,6 +85,12 @@ footer {
 }
 
 /* Desktop screen */
-@media screen and (min-width=960px) {
+@media screen and (min-width: 960px) {
     
+    /* Desktop header */
+
+    .hamburger {
+        display: none;
+    }
+
 }
