@@ -104,4 +104,14 @@ footer {
         padding: 5px;
     }
 
+    /* Desktop main */
+
+    main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 10px 15px;
+        border-top: none;
+        border-bottom: none;
+    }
+
 }
