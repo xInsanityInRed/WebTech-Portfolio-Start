@@ -11,20 +11,18 @@ body {
 
 /* Header */
 
-header {
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: beige;
     border: 5px solid burlywood;
     padding: 5px;
 }
 
-.title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 h1 {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .top-navigation {
@@ -88,9 +86,22 @@ footer {
 @media screen and (min-width: 960px) {
     
     /* Desktop header */
-
+    
     .hamburger {
         display: none;
+    }
+
+    /* Desktop navigation */
+
+    .top-navigation {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center;
+        background-color: beige;
+        border: 5px solid burlywood;
+        border-top: none;
+        padding: 5px;
     }
 
 }
