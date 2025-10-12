@@ -150,6 +150,8 @@ h2 {
         padding: 3px 0px;
     }
 
+    /* Desktop aside */
+
     .aside-placeholder {
         display: grid;
         grid-column: 2;
