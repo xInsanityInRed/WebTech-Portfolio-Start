@@ -26,7 +26,7 @@ header {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -50,13 +50,25 @@ article {
     border: 5px solid chocolate;
 }
 
+article p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
 .aside-placeholder {
     display: none;
 }
 
 /* Footer */
 
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     background-color: burlywood;
@@ -121,11 +133,60 @@ footer {
     /* Desktop main */
 
     main {
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         max-width: 960px;
         margin: 0 auto;
         padding: 10px 15px;
         border-top: none;
         border-bottom: none;
+    }
+
+    article {
+        grid-column: 1;
+    }
+
+    article p {
+        padding: 3px 0px;
+    }
+
+    .aside-placeholder {
+        display: grid;
+        grid-column: 2;
+        grid-row: 1;
+        position: static;
+        background-color: beige;
+        margin: 5px;
+        border: 5px solid chocolate;
+    }
+    
+    .aside-placeholder section {
+        border: 3px solid chocolate;
+    }
+
+    .aside-placeholder p {
+        display: grid;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .aside-1 h2 {
+        display: flex;
+        background-color: burlywood;
+        padding: 5px 10px;
+        outline: 5px solid chocolate;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    #author-footer {
+        display: flex;
+        background-color: burlywood;
+        padding: 5px 10px;
+        outline: 5px solid chocolate;
+        font-style: oblique;
+        position: relative;
+        bottom: -55px;
     }
 
     /* Desktop footer */
