@@ -180,6 +180,9 @@ h2 {
         font-weight: bold;
         font-style: italic;
     }
+    #HTML5-joke {
+        display: flex;
+    }
 
     #author-footer {
         display: flex;
