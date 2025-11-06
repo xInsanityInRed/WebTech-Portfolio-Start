@@ -112,3 +112,8 @@ meter {
 ::-webkit-details-marker {
     display: none;
 }
+
+/* Exclude checkboxes from CSS Reset (Gabrielle Allan - shown in elad's css reset GitHub) */
+input[type="checkbox"] {
+    all: revert;
+}
