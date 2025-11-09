@@ -59,6 +59,18 @@
                         <label for="dog">Dog</label>
                     </div>
                 </fieldset>
+                <fieldset id="catSearch" style="display: none;">
+                    <p>Type a cat breed</p>
+                    <input type="text" id="userCatBreed" required>
+                    <p id="getCatApi">Click the button!</p>
+                    <button onclick="getCatBreed(userCatBreed.value)">Enter</button>
+                </fieldset>
+                <fieldset id="dogSearch" style="display: none;">
+                    <p>Type a dog breed</p>
+                    <input type="text" id="userDogBreed" required>
+                    <p id="getDogApi">Click the button!</p>
+                    <button onclick="getDogBreed(userDogBreed.value)">Enter</button>
+                </fieldset>
                 <h2>TUTORING THE TUTOR</h2>
                 <p>Neil Meyers, library assistant from Gilles Plains in SA, recalls an incident with a part-time computer lecturer a couple of years ago.</p>
                 <p>"I work in a vocational education library, and, on night shift, library staff are the default computer technicians/troubleshooters. One night, this part-time lecturer came to the counter, stating that she'd managed to get a CD-ROM disc stuck in the drive. She also said she felt a bit foolish, because she was instructing a class in basic computing and was unable to solve the problem in front of a room full of students.</p>
