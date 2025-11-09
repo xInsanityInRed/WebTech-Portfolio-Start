@@ -49,7 +49,7 @@ function getCatBreed(userCat) {
             else {
             catElement.textContent = 'No cat found under this breed name!';
             }
-    })
+        })
     .catch(error => {
         console.error('Error fetching joke:', error);
         catElement.textContent = 'Failed to fetch joke.';
