@@ -55,6 +55,20 @@ article p {
     text-indent: 2em;
 }
 
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #DBAFC1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-indent: 0%;
+    text-align: center;
+    align-items: center;
+    
+}
+
 h2 {
     font-weight: bold;
     font-size: 1.25rem;
@@ -62,8 +76,35 @@ h2 {
     line-height: 2rem;
 }
 
+fieldset {
+    margin: 5px;
+    box-shadow: 10px #DBAFC1;
+    border-radius: 5px;
+    background-color: #E2E4F6;
+    justify-items: center;
+}
+
+fieldset div, fieldset p {
+    text-align: center;
+    text-indent: 0%;
+    padding: 5px;
+}
+
+input[type=text] {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+}
+
 .aside-placeholder {
     display: none;
+}
+
+#cutePetPicture {
+    display: flex;
+    justify-self: center;
+    width: 200px;
 }
 
 /* Footer */
