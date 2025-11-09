@@ -113,7 +113,7 @@ meter {
     display: none;
 }
 
-/* Exclude checkboxes from CSS Reset (Gabrielle Allan - shown in elad's css reset GitHub) */
-input[type="checkbox"] {
+/* Exclude inputs and fieldset settings from CSS Reset (Gabrielle Allan - shown in elad's css reset GitHub) */
+input, fieldset {
     all: revert;
 }
