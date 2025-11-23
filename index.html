@@ -5,10 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>YOUR NAME | Web Tech | Cert 4 Prog</title>
+    <title>Home | Gabrielle Allan | Web Tech | Cert 4 Prog</title>
     <link rel="stylesheet" href="./assets/css/site.css">
 </head>
-<body>
+<body class="bg-gray-100">
 <header class="sticky top-0 flex flex-col justify-between p-6 mx-auto md:flex-row gap-2 bg-gray-800 text-gray-200">
     <div class="flex items-center mb-4 title-font md:mb-0 gap-2">
         <h1>Certificate IV in IT (Programming) Web Tech Portfolio</h1>
@@ -37,28 +37,41 @@
         </ul>
     </nav>
 </header>
-<main>
-    <article>
-        <header>
-            <h2 class="text-xl font-bold text-gray-500">Certificate IV in IT (Programming)</h2>
-            <p>Web Technologies Portfolio as implemented by Gabrielle Allan</p>
+<main class="w-4/5 bg-white mx-auto">
+    <article class="flex flex-col gap-4 pb-8">
+        <header class="m-0 p-4">
+            <h2 class="text-2xl font-bold text-gray-500 mb-2">Home</h2>
+            <p class="text-lg font-bold text-gray-700">Web Technologies Portfolio as implemented by Gabrielle Allan.</p>
         </header>
-        <div class="my-8">
-            <section class="w-1/4 bg-gray-200 border border-gray-500 flex flex-col gap-4 p-4 mx-4 my-4 shadow-lg"> <!-- Reference for margins and shadows: https://tailwindcss.com/docs/margin & https://tailwindcss.com/docs/box-shadow#basic-example -->
-                <a href="phase-1">Phase 1</a>
-            </section>
-            <section class="w-1/4 bg-gray-200 border border-gray-500 flex flex-col gap-4 p-4 mx-4 my-4 shadow-lg">
-                <a href="phase-2">Phase 2</a>
-            </section>
-            <section class="w-1/4 bg-gray-200 border border-gray-500 flex flex-col gap-4 p-4 mx-4 my-4 shadow-lg">
-                <a href="phase-3">Phase 3</a>
-            </section>
-            <section class="w-1/4 bg-gray-200 border border-gray-500 flex flex-col gap-4 p-4 mx-4 my-4 shadow-lg">
-                <a href="phase-4">Phase 4</a>
-            </section>
-            <section class="w-1/4 bg-gray-200 border border-gray-500 flex flex-col gap-4 p-4 mx-4 my-4 shadow-lg">
-                <a href="phase-5">Phase 5</a>
-            </section>
+        <div class="m-0 p-4">
+            <h3 class="text-xl font-bold text-gray-500 mb-2">Web References</h3>
+            <div class="grid grid-cols-6 gap-8 mx-4">
+                <section class="col-span-2 bg-gray-200 border border-gray-500 flex flex-col gap-4 p-4 my-4 shadow-lg"> <!-- Reference for margins and shadows: https://tailwindcss.com/docs/margin & https://tailwindcss.com/docs/box-shadow#basic-example -->
+                    <p class="flex justify-between">
+                        <a href="phase-1">Phase 1</a><span class="inline-flex items-center rounded-md bg-red-400/10 px-2 py-1 text-xs font-medium text-red-500 inset-ring inset-ring-red-400/40">HTML</span>
+                    </p>
+                </section>
+                <section class="col-span-2 bg-gray-200 border border-gray-500 flex flex-col gap-4 p-4 my-4 shadow-lg">
+                    <p class="flex justify-between">
+                        <a href="phase-2">Phase 2</a><span class="inline-flex items-center rounded-md bg-green-400/30 px-2 py-1 text-xs font-medium text-green-600 inset-ring inset-ring-green-500/40">CSS</span>
+                    </p>
+                </section>
+                <section class="col-span-2 bg-gray-200 border border-gray-500 flex flex-col gap-4 p-4 my-4 shadow-lg">
+                    <p class="flex justify-between">
+                        <a href="phase-3">Phase 3</a><span class="inline-flex items-center rounded-md bg-blue-400/30 px-2 py-1 text-xs font-medium text-blue-500 inset-ring inset-ring-blue-400/50">Colour & Images</span>
+                    </p>
+                </section>
+                <section class="col-start-2 col-end-4 bg-gray-200 border border-gray-500 flex flex-col gap-4 p-4 my-4 shadow-lg">
+                    <p class="flex justify-between">
+                        <a href="phase-4">Phase 4</a><span class="inline-flex items-center rounded-md bg-purple-400/30 px-2 py-1 text-xs font-medium text-purple-500 inset-ring inset-ring-purple-400/50">API</span>
+                    </p>
+                </section>
+                <section class="col-start-4 col-end-6 bg-gray-200 border border-gray-500 flex flex-col gap-4 p-4 my-4 shadow-lg">
+                    <p class="flex justify-between">
+                        <a href="phase-5">Phase 5</a><span class="inline-flex items-center rounded-md bg-pink-400/30 px-2 py-1 text-xs font-medium text-pink-500 inset-ring inset-ring-pink-400/40">TailwindCSS</span>
+                    </p>                  
+                </section>
+            </div>
         </div>
     </article>
 </main>
@@ -66,7 +79,7 @@
     <section class="flex items-center mb-4 title-font md:mb-0 gap-2 hover:text-white transition duration-500 ease-in-out">
         <img src="https://placehold.co/64?text=logo" alt="Logo" class="h-6">
         <p class="m-auto flex flex-wrap text-sm pl-6 ml-6 text-base
-                border-l border-gray-400 grow">© Copyright 2023 Adrian Gould and YOUR NAME. All rights reserved.</p>
+                border-l border-gray-400 grow">© Copyright 2023 Adrian Gould and Gabrielle Allan. All rights reserved.</p>
     </section>
     <section>
         <ul class="flex flex-wrap text-sm pl-6 ml-6 text-base
